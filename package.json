@@ -1,0 +1,23 @@
+{
+  "name": "mongregator",
+  "version": "0.0.1",
+  "description": "Node.js module for time data aggregation, based on mongoDB",
+  "main": "index.js",
+  "author": "Mr. Goferito",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/goferito/mongregrator"
+  },
+  "bugs": {
+    "url": "https://github.com/goferito/mongregator/issues"
+  },
+  "dependencies": {
+    "mongodb": "^1.4.19",
+    "underscore": "^1.7.0"
+  },
+  "devDependencies": {
+    "rewire": "^2.1.0",
+    "should": "^4.0.4"
+  }
+}
