@@ -10,3 +10,14 @@ agg.add({
   t: new Date('Fri Oct 17 2014 00:00:00 GMT+0200 (CEST)').getTime(),
   v: 20
 }, console.log);
+
+agg.add({
+  n: 'production.nginx1.reqs',
+  t: new Date().getTime(),
+  v: 20
+}, console.log);
+
+agg.getLast('hour', 'production.nginx1.reqs', 10, function(err, docs){
+  
+  console.log(err, docs);
+});
