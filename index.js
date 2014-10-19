@@ -1,1 +1,1 @@
-module.exports = require('./lib/mongregator');
+module.exports = require('./lib/maggr');
