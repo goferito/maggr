@@ -1,5 +1,5 @@
 {
-  "name": "mongregator",
+  "name": "maggr",
   "version": "0.0.1",
   "description": "Node.js module for time data aggregation, based on mongoDB",
   "main": "index.js",
@@ -7,10 +7,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/goferito/mongregrator"
+    "url": "https://github.com/goferito/maggr"
   },
   "bugs": {
-    "url": "https://github.com/goferito/mongregator/issues"
+    "url": "https://github.com/goferito/maggr/issues"
   },
   "dependencies": {
     "mongoskin": "^1.4.4",
