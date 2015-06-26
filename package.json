@@ -19,5 +19,17 @@
   "devDependencies": {
     "rewire": "^2.1.0",
     "should": "^4.0.4"
-  }
+  },
+  "homepage": "https://github.com/goferito/maggr",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "metrics",
+    "aggregation",
+    "mongodb"
+  ]
 }
